@@ -1,7 +1,3 @@
-import sys
-import os
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
-
 from fairsharer.fairsharer import fair_sharer
 
 def test_fair_sharer_one_iteration():

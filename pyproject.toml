@@ -3,6 +3,17 @@ name = "fairsharer"
 version = "0.1.0"
 description = "Fair-Sharer Umverteilungsalgorithmus"
 requires-python = ">=3.10"
+dependencies = []
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
