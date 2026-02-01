@@ -26,7 +26,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install uv
-          uv pip install -e ".[dev]"
+          uv pip install --system -e ".[dev]"
 
       - name: Lint with Ruff
         run: uv run ruff check src tests
