@@ -1,6 +1,6 @@
 def fair_sharer(values, num_iterations, share=0.1):
     """
-    Führt einen Umverteilungsalgorithmus aus.
+    Führt Umverteilungsalgorithmus aus.
 
     In jeder Iteration gibt der größte Wert einen Anteil -share-
     an seinen linken & rechten Nachbarn ab. Das erste & letzte
